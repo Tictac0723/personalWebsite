@@ -1,0 +1,104 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+.page-footer {
+    background-color: black;
+}
+
+.header {
+    background-image: url('./images/mac.jpeg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+@media(max-widdth: 767px) {
+    .header {
+        height: 500px;
+    }
+}
+
+.header img {
+    width: 150px;
+}
+
+.headerContent {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+    width: 100%;
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+}
+
+.headerContent p {
+    font-size: 1.5rem;
+}
+
+#downArrow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.aboutMe {
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bio {
+    position: relative;
+    height: 40%;
+    width: 60%;
+    margin: auto;
+    font-size: 1.6rem;
+    padding: 4rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hiThere {
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.parallax-container {
+    height: 600px;
+}
+
+.skills {
+    position: relative;
+    height: 40%;
+    margin: auto;
+    font-size: 1.6rem;
+    padding: 4rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-image: url('gaming.png')
+}
+
+.skillsHeader {
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+}
+
+.shrink {
+    font-size: 20px !important;
+}
