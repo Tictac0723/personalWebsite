@@ -90,7 +90,7 @@ html {
     padding: 4rem;
     color: white;
     font-family: 'Raleway', sans-serif;
-    background-image: url('gaming.png')
+    background-image: url('./images/gaming.png');
 }
 
 .skillsHeader {
