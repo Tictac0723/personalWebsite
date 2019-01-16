@@ -65,12 +65,18 @@ html {
 #bio {
     position: relative;
     height: 40%;
-    width: 60%;
+    width: 75%;
     margin: auto;
     font-size: 1.6rem;
     padding: 4rem;
     color: white;
     font-family: 'Raleway', sans-serif;
+}
+
+@media(max-width: 1024px) {
+    #bio {
+        width: 95%;
+    }
 }
 
 .hiThere {
